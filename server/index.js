@@ -11,7 +11,8 @@ app.get("/", (req, res) => {
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: "https://vercel-deployment-client-nine.vercel.app/",
+    origin:
+      "https://vercel-deployment-client-1f4ikb4on-pushkarbhangale15s-projects.vercel.app/",
     methods: ["GET", "POST"],
   },
 });
